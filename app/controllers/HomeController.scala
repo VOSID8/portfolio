@@ -25,4 +25,8 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
     Ok(views.html.projects())
   }
 
+  def experience() = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.experience())
+  }
+
 }
