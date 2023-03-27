@@ -33,4 +33,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
     Ok(views.html.achievements())
   }
 
+  def contact() = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.contact())
+  }
 }

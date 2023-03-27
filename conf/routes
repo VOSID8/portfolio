@@ -11,5 +11,7 @@ GET     /experience                     controllers.HomeController.experience()
 GET     /projects                       controllers.HomeController.projects()
 
 GET     /achievements                   controllers.HomeController.achievements()
+
+GET     /contact                        controllers.HomeController.contact()
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
