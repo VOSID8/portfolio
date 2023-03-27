@@ -57,6 +57,8 @@ p {
   position: relative;
   align-items: center;
 }
+
+
 .dark_mode_container .dark_mode_switch {
   display: inline-block;
   height: 34px;
@@ -264,3 +266,5 @@ figure:hover {
     flex: 0 1 calc(25% - 1em);
   }
 }/*# sourceMappingURL=projects.css.map */
+
+

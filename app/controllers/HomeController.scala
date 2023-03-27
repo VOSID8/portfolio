@@ -4,6 +4,7 @@ import javax.inject._
 import play.api._
 import play.api.mvc._
 
+//case class ContactFormData(name: String, email: String, message: String)
 /**
  * This controller creates an `Action` to handle HTTP requests to the
  * application's home page.
@@ -18,6 +19,22 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
    * will be called when the application receives a `GET` request with
    * a path of `/`.
    */
+
+  // val contactForm = Form(
+  // mapping(
+  //   "name" -> nonEmptyText,
+  //   "email" -> email,
+  //   "message" -> nonEmptyText
+  // )(ContactFormData.apply)(ContactFormData.unapply))
+
+  // val formData = contactForm.bindFromRequest()
+  // formData.fold(
+  // formWithErrors => {
+  //   Ok(views.html.home())
+  // },
+  // contactFormData => {
+  // })
+
   def home() = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.home())
   }
@@ -36,4 +53,6 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   def contact() = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.contact())
   }
+
+  
 }
