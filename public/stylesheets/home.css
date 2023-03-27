@@ -4,12 +4,12 @@ body{
     color: #2f2f2f;
     background-color: #f9f7f1;
 }
-header{
+.header{
     font-family: 'Playfair Display', serif;
     font-weight: 900;
     font-size: 80px;
     text-transform: uppercase;
-    display: inline-block;
+    /* display: inline-block; */
     line-height: 72px;
     margin-bottom: 20px;
 
@@ -23,7 +23,20 @@ p{
     position: relative;
 }
 
+.head a {
+    color: #000000;
+}
+
+.tail {
+    border-top: 1px solid #2f2f2f
+}
+
 .headerobjectswrapper{
+    display: flex;
+    column-gap: 1em;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .subhead{
@@ -34,14 +47,15 @@ p{
 
 }
 .weatherforcastbox{
-    position: relative;
+    /* position: relative; */
     width: 12%;
-    left: 10px;
+    /* left: 10px; */
     border: 3px double #2f2f2f;
     padding: 10px 15px 10px 15px;
     line-height: 20px;
     display: inline-block;
-    margin: 0 50px 20px -360px;
+    /* margin: 0 50px 20px -360px; */
+    margin-left: 10px;
 }
 
 .profilepic{
@@ -49,7 +63,8 @@ p{
     padding: 10px 15px 10px 15px;
     line-height: 20px;
     display: inline-block;
-    margin: 0 50px 20px -360px;
+    /* margin: 0 50px 20px 20px; */
+    margin-right: 10px;
 }
 
 .content{
@@ -61,9 +76,7 @@ p{
 
 
 }
-.collumns{
 
-}
 
 .collumn{
     font-size: 14px;
@@ -256,12 +269,7 @@ p{
 }
 /*________________________________________________________________________________________________________________________________*/
 /*MEDIAQUERIES*/
-@media only all and (max-width: 1300px) {
-    .weatherforcastbox{
-        display: none;
-    }
 
-}
 @media only all and (max-width: 1200px) {
     .collumn{
         width: 31%;
@@ -281,7 +289,26 @@ p{
         width: 94%;
     }
 
+    .profilepic{
+        display: none;
+    }
+
 }
+
+@media only all and (max-width: 700px) {
+    .header{
+        /* max-width: 320px; */
+        font-size: 60px;
+        line-height: 54px;
+        overflow: hidden;
+    }
+
+    .weatherforcastbox {
+        line-height: normal;
+    }
+
+}
+
 @media only all and (max-width: 600px) {
     .collumn{
         width: 100%;
@@ -290,11 +317,46 @@ p{
 				border-left: none;
       	border-bottom: 1px solid #2f2f2f;
 	}
-    header{
-        max-width: 320px;
-        font-size: 60px;
-        line-height: 54px;
+
+    .header{
+        /* max-width: 320px; */
+        font-size: 50px;
+        line-height: 44px;
+        overflow: hidden;
+    }
+}
+
+@media only all and (max-width: 700px) {
+    
+    .headerobjectswrapper {
+        flex-direction: column-reverse;
+    }
+
+    .weatherforcastbox {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 0;
+        width: 100vw;
+    }
+    
+    .header{
+        /* max-width: 320px; */
+        font-size: 40px;
+        line-height: 34px;
         overflow: hidden;
     }
 
+}
+
+@media only all and (max-width: 400px) {
+
+    .weatherforcastbox {
+        flex-direction: column;
+        line-height: 9px;
+        margin-bottom: 15px;
+    }
+    
 }

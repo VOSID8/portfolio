@@ -300,7 +300,7 @@ figure {
             p {
             //https://medium.com/@elad/trimming-multi-lines-in-css-5ae59d5e6d84 
                 display: -webkit-box;   
-                -webkit-line-clamp: 5;   
+                // -webkit-line-clamp: 5;   
                 -webkit-box-orient: vertical;     
                 overflow: hidden; 
             }

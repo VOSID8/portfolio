@@ -1,0 +1,24 @@
+2023.03.26 19:35:28 INFO  Started: Metals version 0.11.11 in workspace 'C:\Projects\portfoliowebsite\portfolio' for client Visual Studio Code 1.76.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/Siddh/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.26 19:35:29 INFO  time: initialize in 1.31s
+2023.03.26 19:35:30 WARN  Build server is not auto-connectable.
+2023.03.26 23:18:45 INFO  Shutting down server
+2023.03.26 23:18:45 INFO  shutting down Metals
+2023.03.26 23:18:45 INFO  Exiting server
+2023.03.26 23:29:32 INFO  Started: Metals version 0.11.11 in workspace 'C:\Projects\portfoliowebsite\portfolio' for client Visual Studio Code 1.76.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/Siddh/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.26 23:29:34 INFO  time: initialize in 1.18s
+2023.03.26 23:29:34 WARN  Build server is not auto-connectable.
+2023.03.27 01:37:36 INFO  Shutting down server
+2023.03.27 01:37:36 INFO  shutting down Metals
+2023.03.27 01:37:36 INFO  Exiting server
