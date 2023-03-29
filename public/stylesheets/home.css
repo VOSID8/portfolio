@@ -28,8 +28,12 @@ p{
     color: #000000;
 }
 
+.head a:hover, a:focus {
+    color: #743e0d;
+}
+
 .tail {
-    border-top: 1px solid #2f2f2f
+    border-bottom: 1px solid #2f2f2f
 }
 
 .headerobjectswrapper{
@@ -88,6 +92,8 @@ p{
     vertical-align: top;
     margin-bottom: 50px;
     transition: all .7s;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .column1 {

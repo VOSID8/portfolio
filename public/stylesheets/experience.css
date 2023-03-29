@@ -23,7 +23,7 @@ body {
 a {
   color: var(--primary-color);
   text-decoration: none;
-  transition: var(--transition-animation);
+  /* transition: var(--transition-animation); */
 }
 a:hover, a:visited, a:focus {
   color: var(--primary-color);
@@ -80,7 +80,7 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  transition: var(--transition-animation);
+  /* transition: var(--transition-animation); */
   width: 60px;
 }
 .slider:before {
@@ -90,7 +90,7 @@ p {
   height: 25px;
   left: 5px;
   position: absolute;
-  transition: var(--transition-animation);
+  /* transition: var(--transition-animation); */
   width: 25px;
 }
 .slider.round {
@@ -202,8 +202,8 @@ header .news_paper_location {
 figure {
   cursor: pointer;
   margin: 0 0 20px;
-  filter: grayscale(100%);
-  transition: var(--transition-animation);
+  /* filter: grayscale(100%);
+  transition: var(--transition-animation); */
 }
 figure img {
   max-width: 100%;
@@ -213,13 +213,13 @@ figure figcaption {
   font-style: italic;
   font-size: 12px;
   text-align: left;
-  transition: var(--transition-animation);
+  /* transition: var(--transition-animation); */
 }
 figure figcaption:hover {
   padding-left: 10px;
 }
 figure:hover {
-  filter: grayscale(0);
+  /* filter: grayscale(0); */
 }
 
 /***************************************************
